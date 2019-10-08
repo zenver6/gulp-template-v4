@@ -5,9 +5,13 @@
   "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {
+    "autoprefixer": "^9.6.1",
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
+    "gulp-ejs": "^4.1.1",
     "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-watch": "^5.0.1"
   },
@@ -15,5 +19,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "browserslist": ["last 2 versions", "ie >= 11", "Android >= 4"]
 }
